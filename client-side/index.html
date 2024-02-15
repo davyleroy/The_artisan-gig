@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Get available Artisans around your locality.">
+        <meta name="keywords" content="jobs, artisans, services">
+        <meta name="Author" content="Moses_Isang">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <script src="https://kit.fontawesome.com/9583314658.js" crossorigin="anonymous"></script>
+        <!-- <script src="./Scripts/jv.js"></script> -->
+
+    <title>ArtisanGig</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles1.css">
+
+</head>
+
+<body id="html-body">
+
+    <!--top of the page-->
+        <div class="container">
+            <div class="sub">
+                <div class="logo-section">
+                    <img src="./images/logo1.png" alt="Logo of the website">
+                </div>
+                <div class="my-name">
+                    <h2>Artis<span>anGig</span></h2>
+                </div>
+                <div class="login-link"  id="login-form">
+                    <h3 id="loginLink" style="display: block;">log<span>in</span></h3>
+                    <form action="" class="loginform" id="login_Form" style="display: none;" >
+
+                        <span class="loginclose" id="close-login-form">&times;</span>
+
+                        <div class="labels">
+                        <label for="email">Email:</label>
+                        <input type="email" id="login-email" name="email" placeholder="you@mail.com" >
+                        </div>
+
+                        <div class="labels">
+                            <label for="password">password:</label>
+                            <input type="password" id="login-password" name="password" placeholder="********" required>
+                            </div>
+
+                            <div class="loginsub">
+                                <button type="submit" id="login-btn">Login</button>
+                            </div>
+
+                            <div class="Forgetpw">
+                                <a href=""><h2>Forgot password?<h2></a>
+                            </div>
+                    </form>
+                </div>
+                <div class="login-icon">
+                    <i class="fa-regular fa-circle-user"></i>
+                </div>
+            </div>
+        </div>
+        <!--End of top page-->
+
+
+
+    <!--MAJOR page-->
+        <section class="section" id="secTion">
+        <div class="major-page" id="majorPage">
+            <div class="check">
+            <div class="write-ups">
+                <h1>    Need Help? We've got you!</h1>
+                <h2> Worry no more, as you will get the best of our services.</h2>
+            </div>
+            <div class="image-container">
+                <img src="./images/logo2.png" alt="Logo">
+            </div>
+            <div class="category">
+                <a href="">
+                    <h2>View categories</h2>
+                </a>
+            </div>
+        </div>
+        <div class="sign-ups" id="signUps">
+            <div class="client-container" id="clientContainer">
+
+                <div class="buttoncont" >
+                   <button  type="submit"   id="clientSignup" class="client-sign-up">Client <span>sign up</span></button>
+                </div>
+                   <div id="formContainer" class="form-container">
+                    <form action="" id="user-form" class="my-form">
+
+                            <span class="close-btn" id="client-close">&times;</span>
+
+                            <div class="labels">
+                            <label for="name">First Name:</label>
+                            <input type="text" id="user-firstname" name="firstname" placeholder="Enter your firstname" required>
+                            </div>
+
+                            <div class="labels">
+                            <label for="name">Last Name:</label>
+                            <input type="text" id="user-lastname" name="lastname" placeholder="Enter your surname" required>
+                            </div>
+
+                            <div class="labels">
+                                <label for="name">Other Name:</label>
+                                <input type="text" id="user-othername" name="othername" placeholder="Enter your middlename (optional)">
+                            </div>
+
+                            <div class="labels">
+                                <label for="sex">Sex</label>
+                                <select class="sex" id="user-sex" name="sex" required>
+                                    <option value="">Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="others">Others</option>
+                                  </select>
+                            </div>
+
+                            <div class="labels">
+                                <label for="email">Email:</label>
+                                <input type="email" id="user-email" name="email" placeholder="you@mail.com" placeholder="Enter your email (you@mail.com)" required>
+                            </div>
+
+                            <div class="labels">
+                                <label for="name">Phone no.:</label>
+                                <input type="text" id="user-phone" name="phone" placeholder="Your phone no. (+234********)" required>
+                            </div>
+
+                            <div class="labels">
+                                <label for="name">New Password:</label>
+                                <input type="password" id="user-password" name="password" placeholder="Enter a new password" required>
+                            </div>
+
+                            <div class="labels">
+                                <label for="name">Confirm Password:</label>
+                                <input type="password" id="user-password-confirmed" name="password-confirmed" placeholder="Confirm your password" required>
+                            </div>
+
+                            <div class="labels">
+                                <label for="name">Resident Address:</label>
+                                <textarea name="user-address" id="user-address" cols="42" rows="3" placeholder="[optional] Your Street, Community, City, State, & Country"></textarea>
+                            </div>
+
+                            <div class="form-sub-btn">
+
+                                <button type="submit" id="client-submit">Submit</button>
+
+                            </div>
+                        </form>
+
+                   </div>
+                </div>
+
+
+                <div class="artisan-container" id="aT" >
+                    <button  type="submit"  class="artisan-sign-up" id="artisanSignup">Artisan <span id="artisanSignup">sign up</span></button>
+                </div>
+                <div class="form-cont" id="formCont">
+                    <form action="" class="my-form" id="artisan-form">
+
+                            <span class="close-btn" id="artisan-close">&times;</span>
+
+                        <div class="labels">
+                            <label for="name">First Name:</label>
+                            <input type="text" id="artisan-firstname" name="firstname" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="labels">
+                            <label for="name">Last Name:</label>
+                            <input type="text" id="artisan-lastname" name="lastname" placeholder="Enter your last name" required>
+                        </div>
+                        <div class="labels">
+                            <label for="name">Other Name:</label>
+                            <input type="text" id="artisan-othername" name="othername" placeholder="Enter other names [optional]">
+                        </div>
+                        <div class="labels">
+                            <label for="sex">Sex</label>
+                            <select class="sex" id="artisan-sex" name="sex" required>
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">Others</option>
+                              </select>
+                        </div>
+                        <div class="labels">
+                            <label for="email">Email:</label>
+                            <input type="email" id="artisan-email" name="email" placeholder="you@mail.com" placeholder="Enter your email (you@mail.com)" required>
+                        </div>
+
+                        <div class="labels">
+                            <label for="name">Phone no.:</label>
+                            <input type="text" id="artisan-phone" name="phone" placeholder="Your phone no. (+234********)" required>
+                        </div>
+                        <div class="labels">
+                            <label for="name">New Password:</label>
+                            <input type="password" id="artisan-password" name="password" placeholder="Enter a new password" required>
+                        </div>
+
+                        <div class="labels">
+                            <label for="name">Confirm Password:</label>
+                            <input type="password" id="artisan-password-confirmed" name="password-confirmed" placeholder="Confirm your password" required>
+                        </div>
+
+                        <div class="form-sub-btn">
+                            <button type="submit" id="artisan-submit">Create Account</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+<script src="./scripts/buttons.js"></script>
+<script src="./scripts/index.js"></script>
+
+        </div>
+    </section>
+
+</body>
+</html>
