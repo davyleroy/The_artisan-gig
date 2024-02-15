@@ -1,4 +1,4 @@
-# ArtisanGig
+# The_ArtisanGig
 ![artisan_gig_landing_page](https://github.com/tpauldike/rough_work/blob/main/designs/ArtisanGig_mockup.jpg)
 ArtisanGig is a web app that enables users to connect with local artisans to get the services they need. It allows artisans to register their artwork(s) and lets the users send feedback and ratings for the service received.
 
@@ -20,9 +20,8 @@ ArtisanGig was built by a team of three colleagues, who were at the finish line 
 
 Name | Role 
 ---- | ----
-[Moses Isang](https://github.com/Mohzis1) | front end development (structure & styling), presentation
-[Jerome Udoh](https://github.com/Jubasstech) | architectural structure, documentation, back end development
-[Topman Paul-Dike](https://github.com/tpauldike) | database schema/design, APIs, documentation, deployment.
+[Gahima Aristote](https://github.com/Aristote-code) | front end development (structure & styling), presentation ,documentation
+[Nkurunziza Mbuto Davy](https://github.com/Jubasstech) | architectural structure, back end development database schema/design, APIs, documentation, deployment.
 
 ## APIs
 
@@ -69,4 +68,4 @@ Please read [CONTRIBUTION.md](./CONTRIBUTION.md) for details on our code of cond
 
 ## Support
 
-For any help and support, please contact [me](mailto:topman4loveworld@gmail.com).
+For any help and support, please contact Us [here](mailto:mbutodavy@gmail.com) or [here](mailto:gahimaaritote1@gmail.com).
