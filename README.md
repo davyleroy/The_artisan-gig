@@ -69,4 +69,4 @@ Please read [CONTRIBUTION.md](./CONTRIBUTION.md) for details on our code of cond
 
 ## Support
 
-For any help and support, please contact [me](mailto:topman4loveworld@gmail.com).
+For any help and support, please contact [me](mailto:d.nkurunziz@alustudent.com).
